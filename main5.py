@@ -9,7 +9,6 @@ from google import genai
 from google.genai.errors import APIError 
 from google.genai.types import GenerationConfig 
 
-# $env:GEMINI_API_KEY="AIzaSyCQFC54KWvoGRwXIIzUN-z-0_TXGM_onzI"
 # USED StanceClassifier FOR PREDICTING PROS ND CONS BASED ON KEYWORDS ND STRUCTURE
 # topic is hardcoded here - ban cosmetic surgery
 

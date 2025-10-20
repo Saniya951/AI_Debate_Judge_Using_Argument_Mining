@@ -3,6 +3,7 @@ import numpy as np
 import random
 import os
 import re # For better string cleaning/matching
+import time
 
 # FIX: Adjusted import to be more reliable in execution environment
 import google.genai as genai
