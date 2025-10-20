@@ -1,0 +1,13 @@
+@'
+# Python / project
+venv/
+__pycache__/
+*.pyc
+.env
+.vscode/
+.DS_Store
+.idea/
+# optionally: build/dist if packaging
+dist/
+build/
+'@ | Out-File -Encoding UTF8 .gitignore
